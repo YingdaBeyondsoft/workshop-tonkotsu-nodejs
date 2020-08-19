@@ -2,18 +2,17 @@ name: Configure Azure environment
 
 on: 
   pull_request:
-    types: [labeled]
 
 env:
-  AZURE_RESOURCE_GROUP: cd-with-actions
-  AZURE_APP_PLAN: actions-ttt-deployment
+  AZURE_RESOURCE_GROUP: Azure-cd-with-actions
+  AZURE_APP_PLAN: actions-deployment
   AZURE_LOCATION: '"chinaeast2"'
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
   #################################################
   ### REPLACE USERNAME WITH GH USERNAME         ###
-  AZURE_WEBAPP_NAME: YingdaBeyondsoft-ttt-app
+  AZURE_WEBAPP_NAME: YingdaBeyondsoft-app
   #################################################
 
 jobs:
