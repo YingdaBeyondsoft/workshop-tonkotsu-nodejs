@@ -5,14 +5,14 @@ on:
     types: [labeled]
 
 env:
-  DOCKER_IMAGE_NAME: YingdaBeyondsoft-azure-ttt
+  DOCKER_IMAGE_NAME: YingdaBeyondsof-docker
   IMAGE_REGISTRY_URL: docker.pkg.github.com
   #################################################
   ### USER PROVIDED VALUES ARE REQUIRED BELOW   ###
   #################################################
   #################################################
   ### REPLACE USERNAME WITH GH USERNAME         ###
-  AZURE_WEBAPP_NAME: YingdaBeyondsoft-ttt-app
+  AZURE_WEBAPP_NAME: YingdaBeyondsoft-app
   #################################################
 
 jobs:
