@@ -35,6 +35,7 @@ jobs:
     steps:
       - name: "Azure switch"
         run: az cloud set -n AzureChinaCloud
+        
       - name: "Login via Azure CLI"
         uses: azure/login@v1
         with:
